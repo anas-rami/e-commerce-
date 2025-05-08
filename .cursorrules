@@ -1,0 +1,114 @@
+# Cursor Rules
+
+
+## Instructions
+
+- Record fixes for mistakes or corrections to avoid repetition in the `Lessons` section.
+- Organize thoughts and plan steps before starting a task in the `Scratchpad` section.
+- Clear old tasks if necessary.
+- Use todo markers for progress tracking:
+  - `[X]` Completed tasks
+  - `[ ]` Pending tasks
+- Update Scratchpad after completing subtasks.
+- Reflect and plan after milestones for better task management.
+- Always refer to Scratchpad before planning the next step.
+
+## Lessons
+
+## Scratchpad
+
+
+
+#### 1. Project Setup and Configuration
+- [X] Initialize Next.js 15 project with TypeScript
+- [X] Set up project structure and organization
+- [X] Configure ESLint and Prettier
+- [X] Set up Shadcn UI components
+- [ ] Install and configure required dependencies
+- [ ] Set up environment variables
+
+#### 2. Database and Authentication
+- [ ] Set up PostgreSQL database
+- [ ] Configure Prisma ORM
+  - [ ] Define database schema
+  - [ ] Create models for users, products, orders, etc.
+  - [ ] Set up migrations
+- [ ] Implement NextAuth.js authentication
+  - [ ] Configure OAuth providers
+  - [ ] Set up user roles (admin, customer)
+  - [ ] Create protected routes
+
+#### 3. Core Features - Customer Frontend
+- [ ] Design and implement layout components
+  - [ ] Navigation bar
+  - [ ] Footer
+  - [ ] Responsive design
+- [ ] Create home page with featured products
+- [ ] Implement product listing and filtering
+  - [ ] Product grid/list views
+  - [ ] Search functionality
+  - [ ] Category filtering
+  - [ ] Price filtering
+- [ ] Build product detail pages
+- [ ] Shopping cart functionality using Zustand
+- [ ] Checkout process with Stripe integration
+- [ ] User profile and order history
+
+#### 4. Admin Dashboard
+- [ ] Create admin layout with Shadcn
+- [ ] Implement admin authentication and authorization
+- [ ] Build dashboard overview with Recharts
+  - [ ] Sales analytics
+  - [ ] Order statistics
+  - [ ] Customer insights
+- [ ] Product management
+  - [ ] CRUD operations
+  - [ ] Image upload with Uploadthing
+  - [ ] Inventory management
+- [ ] Order management system
+- [ ] Customer management
+- [ ] Settings and configuration
+
+#### 5. Advanced Features
+- [ ] Email notifications with Resend
+  - [ ] Order confirmations
+  - [ ] Shipping updates
+  - [ ] Password reset
+- [ ] Real-time inventory tracking
+- [ ] Review and rating system
+- [ ] Wishlist functionality
+- [ ] Related products recommendations
+
+#### 6. Testing and Optimization
+- [ ] Write unit tests
+- [ ] Implement integration tests
+- [ ] Performance optimization
+  - [ ] Image optimization
+  - [ ] Code splitting
+  - [ ] Caching strategies
+- [ ] SEO optimization
+
+#### 7. Deployment and Documentation
+- [ ] Set up CI/CD pipeline
+- [ ] Deploy to production
+- [ ] Write documentation
+  - [ ] API documentation
+  - [ ] User guide
+  - [ ] Admin guide
+- [ ] Security audit and fixes
+
+#### Current Focus
+- [X] Begin with Project Setup and Configuration
+- [X] Set up Next.js project with TypeScript
+- [X] Install initial dependencies
+- [X] Set up Shadcn UI components and configure theme
+  - [X] Install Shadcn CLI and initialize
+  - [X] Configure global CSS
+  - [X] Set up dark mode
+  - [X] Add initial components (Button, Card, Input, Form, Dialog, etc.)
+- [ ] Install and configure remaining dependencies
+  - [ ] Set up Prisma
+  - [ ] Configure NextAuth.js
+  - [ ] Set up Stripe
+  - [ ] Configure Uploadthing
+  - [ ] Set up Resend for emails
